@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color:#8B8000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+h{
+    font-size: 30px;
+}
+ul,li{
+    font-size: 20px;
+}
+
+.right ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .right ul li {
+      list-style: none;
+      margin: 5px;
+      
+      align-items: center ;
+      cursor: pointer;
+  
+  }
+  .right ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  .right ul li a:hover{
+  color: white;
+  
+  
+  }
+
+body {
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 70vh;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 7vmin;
+    background-color: #b2ad7f;
+    color: white;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#X-score,
+#O-score,
+#DRAW-score {
+    height: 100px;
+    width: 100px;
+    font-size: 4rem;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rst-btn,
+#new-btn,
+#btn1 {
+    height: 8vmin;
+    width: 15vmin;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 1px;
+
+}
+.buttoms{
+    margin-right: 150px;
+    
+}
+
+.msgcontainer,
+.newmsgcontainer {
+    font-size: 8vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.hide2 {
+    display: none;
+}
+
+.dark {
+    background-color: #F5F5DC;
+    color: black;
+}
+
+.light {
+    background-color: black;
+    color: white;
+}

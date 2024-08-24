@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE PROJECT</title>
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+<body>
+    <div class="msgcontainer hide">
+        <p id="msg">CONGRATULATIONS!</p>
+    </div>
+    <div class="newmsgcontainer hide2">
+        <p id="newmsg">DRAW</p>
+    </div>
+    <main>
+        <header>
+        <nav>
+            <div class="left">
+        <h>TIC-TAC-TOE</h>
+            </div>
+        </div>
+        </nav>
+        </header>
+        
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            
+            <div class="score-board">
+                <div class="score">
+                    <p id="X-score">0</p>
+                    <p>X</p>
+                </div>
+                <div class="score">
+                    <p id="O-score">0</p>
+                    <p>O</p>
+                </div>
+                <div class="score">
+                    <p id="DRAW-score">0</p>
+                    <p>DRAW</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttoms">
+        <button id="rst-btn">RESET GAME</button>
+        <button id="new-btn">NEW GAME</button>
+        <button id="btn1">CHANGE THEME</button>
+        </div>
+    </main>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
